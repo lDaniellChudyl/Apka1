@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp2.Dodawanie"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Dodawanie" Height="450" Width="842">
+    <Grid HorizontalAlignment="Center" Width="842">
+        <TextBox x:Name="Inicjaly" HorizontalAlignment="Left" Margin="20,122,0,0" TextWrapping="Wrap" Text="Tutaj Wpisz Inicjały" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="Imie" HorizontalAlignment="Left" Margin="184,122,0,0" TextWrapping="Wrap" Text="Tutaj Wpisz Imię" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="Telefon" HorizontalAlignment="Left" Margin="350,122,0,0" TextWrapping="Wrap" Text="Tutaj Wpisz Telefon" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="Email" HorizontalAlignment="Left" Margin="516,122,0,0" TextWrapping="Wrap" Text="Tutaj Wpisz Email" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="Pozycje" HorizontalAlignment="Left" Margin="681,122,0,0" TextWrapping="Wrap" Text="Tutaj Wpisz Pozycje" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <Button x:Name="Dodawanie2" Content="Dodaj" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Dodawanie1_Click"/>
+
+    </Grid>
+</Window>
